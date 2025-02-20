@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Hero from './components/hero';  // Ensure this import path is correct
+import Hero from './components/hero';  
 import './App.css';  
+import About from './pages/about';
+
 
 function App() {
 
@@ -9,6 +11,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>

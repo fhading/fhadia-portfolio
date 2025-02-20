@@ -1,0 +1,160 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #2283ea;
+    padding: 10px 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-link {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-link:hover {
+    color: #092340;
+}
+
+.about-container {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #280783;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 45%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+.about-hobby {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    font-style: italic;
+    padding-top: 10px;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-image {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-text {
+        max-width: 100%;
+    }
+}
+
+.navbar-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: rgb(5, 3, 120);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #277184;
+}
+
+.social-media-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-media-container h3 {
+    font-size: 2rem;
+    color: #0c17e9;
+    margin-bottom: 15px;
+}
