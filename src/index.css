@@ -152,3 +152,246 @@ button:focus-visible {
 .blog-card-readmore:hover {
   color: #66a3ff;
 }
+/* EXPERIENCE CONTAINER */
+.experience-container {
+  padding: 4rem 2rem;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+/* EXPERIENCE TITLE */
+.experience-title {
+  text-align: center;
+  color: #1e32e9;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* EXPERIENCE GRID */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* EXPERIENCE CARD */
+.experience-card {
+  background: rgba(255, 255, 255, 0.1); /* translucent card */
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(233, 30, 99, 0.2);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f1f1f1;
+}
+
+.experience-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(44, 30, 233, 0.3);
+}
+
+.experience-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* EXPERIENCE CONTENT */
+.experience-card-content {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.experience-role {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.experience-company {
+  font-size: 1rem;
+  color: #b6ceff;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.experience-date {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin-bottom: 0.5rem;
+}
+
+.experience-description {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+/* PROJECT CONTAINER */
+.project-container {
+  padding: 4rem 2rem;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+/* PROJECT TITLE */
+.project-title {
+  text-align: center;
+  color: #1a73e8;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* PROJECT GRID */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* PROJECT CARD */
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(26, 115, 232, 0.2);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f1f1f1;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(26, 115, 232, 0.3);
+}
+
+
+.project-card-content {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.project-card-title {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.project-card-date {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin-bottom: 0.5rem;
+}
+
+.project-card-summary {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+}
+
+.project-card-readmore {
+  margin-top: auto;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #99c2ff;
+  transition: color 0.3s;
+}
+
+.project-card-readmore:hover {
+  color: #66a3ff;
+}
+.contact-container {
+  padding: 4rem 2rem;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.contact-title {
+  color: #1a73e8;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-description {
+  font-size: 1.1rem;
+  color: #dddddd;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Card wrapper */
+.contact-card-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(26, 115, 232, 0.2);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(26, 115, 232, 0.3);
+}
+
+.contact-icons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: #ffffff;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.facebook:hover {
+  color: #1877f2;
+}
+
+.email:hover {
+  color: #db4437;
+}
+
+.linkedin:hover {
+  color: #0a66c2;
+}
+
+.instagram:hover {
+  color: #e1306c;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}

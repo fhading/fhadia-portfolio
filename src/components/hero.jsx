@@ -15,8 +15,8 @@ const Hero = () => {
             <li><Link to="/about" className="navbar-link">About</Link></li>
             <li><Link to="/contact" className="navbar-link">Contact</Link></li>
             <li><Link to="/blog" className="navbar-link">Blog</Link></li>
-            <li><Link to="/blog" className="navbar-link">Experience</Link></li>
-            
+            <li><Link to="/Experience" className="navbar-link">Experience</Link></li>
+            <li><Link to="/project" className="navbar-link">Project</Link></li>
           </ul>
         </div>
       </nav>

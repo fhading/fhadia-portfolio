@@ -13,9 +13,12 @@ const About = () => {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">Fhadia</Link>
           <ul className="navbar-links">
-            <li><Link to="/" className="navbar-link">Home</Link></li>
-            <li><Link to="/about" className="navbar-link">About</Link></li>
-            <li><Link to="/contact" className="navbar-link">Contact</Link></li>
+             <li><Link to="/" className="navbar-link">Home</Link></li>
+             <li><Link to="/about" className="navbar-link">About</Link></li>
+             <li><Link to="/contact" className="navbar-link">Contact</Link></li>
+             <li><Link to="/blog" className="navbar-link">Blog</Link></li>
+             <li><Link to="/Experience" className="navbar-link">Experience</Link></li>
+             <li><Link to="/project" className="navbar-link">Project</Link></li>
           </ul>
         </div>
       </nav>

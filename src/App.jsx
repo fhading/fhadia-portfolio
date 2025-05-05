@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hero from './components/hero';  
 import About from './pages/about';
 import Contact from './components/contact';
+import Experience from './components/Experience';
 import Blog from './components/Blog'; // or wherever Blog.jsx is located
 import './App.css';  
 import Blog1 from './pages/blogs/blog1';
@@ -11,6 +12,7 @@ import Blog4 from './pages/blogs/blog4';
 import Blog5 from './pages/blogs/blog5';
 import Blog6 from './pages/blogs/blog6';
 import Blog7 from './pages/blogs/blog7';
+import Project from './components/project'
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path="/blog/5" element={<Blog5 />} />
           <Route path="/blog/6" element={<Blog6 />} />
           <Route path="/blog/7" element={<Blog7 />} />
+          <Route path="/Experience" element={<Experience />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
       </div>
     </Router>
