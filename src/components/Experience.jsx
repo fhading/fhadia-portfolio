@@ -1,6 +1,7 @@
 import React from 'react';
 import '../index.css';
 import { Link } from 'react-router-dom';
+import gdscLogo from '../assets/gdsc.jpg'; // ✅ Proper import
 
 const experiences = [
   {
@@ -8,15 +9,15 @@ const experiences = [
     title: 'Core Member Documentation Lead',
     company: 'Google Developer Student Clubs Documentation Lead',
     date: 'Aug 2021',
-    image: '/src/assets/gdsc.jpg',
+    image: gdscLogo,
     description: 'Collaborated with student devs, contributed to workshops, and supported open-source projects under GDSC.',
   },
   {
     id: 2,
-    title: 'Core Member  Assistant Creatives',
+    title: 'Core Member Assistant Creatives',
     company: 'Google Developer Student Clubs Assistant Creatives',
     date: 'Aug 2022',
-    image: '/src/assets/gdsc.jpg',
+    image: gdscLogo,
     description: 'Collaborated with student devs, contributed to workshops, and supported open-source projects under GDSC.',
   },
   {
@@ -24,7 +25,7 @@ const experiences = [
     title: 'Core Member Community Development Officer',
     company: 'Google Developer Student Clubs Community Development Officer',
     date: 'Aug 2023',
-    image: '/src/assets/gdsc.jpg',
+    image: gdscLogo,
     description: 'Collaborated with student devs, contributed to workshops, and supported open-source projects under GDSC',
   },
 ];
